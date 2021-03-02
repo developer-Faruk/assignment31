@@ -1,0 +1,73 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.menu-bar{}
+.menu-bar ul{
+
+}
+.menu-bar ul li{
+    margin: 0px 10px;
+}
+.menu-bar ul li a{
+    font-weight: 500;
+    font-size: 20px;
+
+
+}
+
+.baner {
+    background: url(./pexels-tuấn-kiệt-jr-1382726.jpg) no-repeat top center;
+    padding: 300px 0;
+    color: aliceblue;
+    position: relative;
+    z-index: 1;
+}
+
+.baner::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.baner-section h1 {
+	padding: 30px 0;
+}
+.card-item-first {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    height: 300px;
+}
+
+
+/*  Abput Section  */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead {
+    font-size: 22px;
+    line-height: 2.7rem;
+}
+.baner-section h3 {
+	padding: 32px 0;
+}
+.card-product {
+    width: 30%;
+    height: 100%;
+
+}
+.card-product-b {
+	width:70%;
+	padding-left: 31px;
+}
+.service-item h2{
+    font-size: 40px;
+    font-weight: 500;
+}
